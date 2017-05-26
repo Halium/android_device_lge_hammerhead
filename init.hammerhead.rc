@@ -151,7 +151,7 @@ on post-fs-data
 
     # wifi
     chown wifi system /persist/wifi
-    # insmod /system/lib/modules/bcmdhd.ko
+    insmod /system/lib/modules/bcmdhd.ko
 
     #  bluetooth
     mkdir /data/misc/bluetooth 0770 bluetooth bluetooth
